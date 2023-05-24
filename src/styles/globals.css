@@ -87,12 +87,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background:#cdc6e0;
+  text-align: center;
 }
 
 a {
@@ -104,4 +100,9 @@ a {
   html {
     color-scheme: dark;
   }
+}
+.styletoeachcomment{
+  background-color: white;
+    border-radius:5px;
+    padding: '30px';color:black
 }
